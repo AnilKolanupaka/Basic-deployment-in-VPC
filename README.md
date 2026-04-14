@@ -6,8 +6,8 @@ This project demonstrates a basic frontend deployment on an AWS EC2 instance ins
 ---
 
 ## 🏗️ Architecture
-- Custom VPC (10.0.0.0/16)
-- Public Subnet (10.0.1.0/24)
+- Custom VPC (192.168.0.0/20)
+- Public Subnet (192.168.0.0/24)
 - Internet Gateway attached to VPC
 - Route Table configured for internet access
 - EC2 instance deployed in public subnet
@@ -30,7 +30,7 @@ This project demonstrates a basic frontend deployment on an AWS EC2 instance ins
 3. Configured Route Table
 4. Launched EC2 instance in public subnet
 5. Installed Nginx on EC2
-6. Deployed static frontend (index.html)
+6. Deployed static frontend (inde.html)
 7. Accessed via public IP
 
 ---
@@ -61,7 +61,7 @@ http://<EC2-PUBLIC-IP>
 
 ## 👨‍💻 Author
 Anil Chari
-AWS Cloud Engineer (Learning Project)
+AWS Cloud Engineer 
 
 ---
 
